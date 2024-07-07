@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criação de ficha</h1>
+    <section id="igneo" class="ficha">
+        <div class="visible" id="card">
+            <img src="img/IGNEO.png" alt="" class="bandeira">
+            <h2>Igneo</h2>
+            <button id="buttonigneo" class="show">Leia mais</button>
+        </div>
+        <div class="invisible" id="igvis">
+            <h3>História da nação</h3>
+            <p>
+                Uma nação que prioriza o espiritual e segue uma religião politeísta. 
+                Seus rituais são voltados a duas tribos, sendo elas, Sangue, 
+                uma tribo que tende a seguir os deuses da guerra e amor, 
+                seus corpos são suas ferramentas de ataque e defesa, 
+                sendo considerados narcisistas. A tribo seguinte é a da Alma, 
+                seguem aos deuses da mente e morte, rituais com os mortos são sua ferramenta de ataque. 
+                Igneo tem péssima relação com toda as outras nações, 
+                principalmente com Áureo que continuamente sofre atentados da tribo do sangue.
+            </p>
+            <h3>Convicção da nação</h3>
+            <p>
+                Não acreditam em uma cura por acharem que os deuses estão matando os impuros e querem conhecer Morke para levar seus sarcedotes e os puros (aqueles não afetados pela doença) e recomeçarem sua nação. 
+                Escravizar todos os curandeiros está em uma de suas metas, 
+                porém não conseguem chegar até a ilha sem a ajuda tecnológica da nação Áureo.
+            </p>
+            <a class="openform tribo" id="sangue">Sangue</a>
+            <a class="openform tribo" id="alma">Alma</a>
+        </div>
+    </section>
+    <section id="nomade" class="ficha">
+        <div class="visible">
+            <img src="img/Bandeira nomades.png" alt="">
+            <h2>Nômades</h2>
+            <button class="show" id="buttonnomade">Leia mais</button>
+        </div>
+        <div class="invisible" id="novis">
+            <h3>História da nação</h3>
+            <p>Não é uma nação, mas um estilo de vida adotado por aqueles que não 
+                concordam com o que é estabelecido pelas nações (Igneo e Áureo) e 
+                decidem viver de sua própria forma ou pessoas que foram expulsas 
+                ou estão sendo procuradas por serem criminosos. 
+                Tendem a não ter relações com Igneo, 
+                porém são eventualmente contratados pela nação de Áureo 
+                (até mesmo criminoso) para fazerem serviços perigosos como: 
+                exploração de um local, atentados, experimentos.
+            </p>
+            <h3>Contrato</h3>
+            <p>Foram contratados pelas nações para servirem dando a vida para 
+                quem decidiu seguir rumo a Morke e 
+                pagos ao final da missão e perdoados de qualquer delito 
+            </p>
+            <a class="openform tribo" id="explo">Exploradores</a>
+            <a class="openform tribo" id="ban">Banidos</a>
+        </div>
+    </section>
+    <section id="aureo" class="ficha">
+        <div class="visible">
+            <img src="img/Bandeira aureo.png" alt="">
+            <h2>Áureo</h2>
+            <button class="show"  id="buttonaureo">Leia mais</button>
+        </div>
+        <div class="invisible" id="auvis">
+            <h3>História da nação</h3>
+            <p>
+                Nação dedicada a criação tecnológica e arte, que tem como princípio
+                os estudos de artes rúnicas e desenvolvimento de automotas. Não são focados 
+                em poder de fogo, sendo assim uma nação ruim em combate. Tem uma péssima
+                relação com a tribo de sangue e para ações mais perigosas eles contratam 
+                pessoas nômades. 
+            </p>
+            <h3>Convicção da nação</h3>
+            <p>
+                Esta nação quer parar a propagação da doença e descobrir/coletar 
+                recursos naturais de Morke para realizar uma vacina e para reparar parte do dano
+                que os experimentos da nação fez a sua fauna e flora.
+            </p>
+            <a class="openform tribo" id="arte">Arte</a>
+            <a class="openform tribo" id="auto">Automotas</a>
+        </div>
+    </section>
+
+<section id="pericia">
+    <h3>CLIQUE NO QUADRADO NO FINAL TMJ</h3>
+    <!--Caracteristicas-->
+    <div id="caracteristicas">
+        <label for="nome">Digite o nome do seu personagem</label>
+        <input type="text" name="nome" id="nome">
+        <label for="idade">Digite a idade do seu personagem</label>
+        <input type="text" name="idade" id="idade">
+    </div>
+    <!--Atributos-->
+    <label for="vida" id="label-vida">Vida</label>
+    <input type="number" name="vida" id="vida" min="0" max="20">
+    <label for="defesa">Defesa</label>
+    <input type="number" name="defesa" id="defesa" min="0" max="10">
+    <label for="força">Força</label>
+    <input type="number" name="força" id="força" min="0" max="10">
+
+    <div id="container">
+        <!--Pericias-->
+        <input type="radio" name="pericia" id="arremesso" class="ponto" value="arremesso">Arremesso
+        <input type="radio" name="pericia" id="corpo-corpo" class="nacao" value="0">Corpo - Corpo
+        <input type="radio" name="pericia" id="armas"class="nacao" value="1">Armas
+        <input type="radio" name="pericia" id="fortitude" class="ponto" value="fortitude">Fortitude
+        <input type="radio" name="pericia" id="arteoficio" class="nacao" value="2">Arte e ofícios
+        <input type="radio" name="pericia" id="encontrar" class="ponto" value="encontrar">Encontrar
+        <input type="radio" name="pericia" id="navegação" class="ponto" value="navegacao">Navegação
+        <input type="radio" name="pericia" id="antropologia" class="nacao" value="3">Antropologia
+        <input type="radio" name="pericia" id="medicina" class="nacao" value="4">Medicina
+        <input type="radio" name="pericia" id="esquiva" class="ponto" value="esquiva">Esquiva
+        <input type="radio" name="pericia" id="furtividade" class="ponto" value="furtividade">Furtividade
+        <input type="radio" name="pericia" id="escalar" class="ponto" value="escalar">Escalar
+        <input type="radio" name="pericia" id="corrida" class="ponto" value="corrida">Corrida
+        <input type="radio" name="pericia" id="controle de respiração" class="ponto" value="controle">Controle de respiração
+        <input type="radio" name="pericia" id="ritual"class="nacao" value="5">Ritual
+        <input type="radio" name="pericia" id="inspiração" class="ponto" value="inspiracao">Inspiração
+        <input type="radio" name="pericia" id="lábia" class="ponto" value="labia">Lábia
+        <input type="radio" name="pericia" id="intimidação" class="ponto" value="intimidação">Intimidação
+        <input type="radio" name="pericia" id="charme" class="ponto" value="charme">Charme
+        <button id="gerador">Rolar o dado</button> 
+    </div>
+    </section>
+    <section>
+        <p id="info-nome" class="posficha"></p>
+        <p id="info-idade" class="posficha"></p>
+        <p id="info-nacao" class="posficha"></p>
+        <p id="info-tribo" class="posficha"></p>
+        <p id="info-vida" class="posficha"></p>
+        <p id="info-defesa" class="posficha"></p>
+        <p id="info-forca" class="posficha"></p>
+    </section>
+    
+    <script src="ficha.js"></script>
+
+</body>
+</html>
