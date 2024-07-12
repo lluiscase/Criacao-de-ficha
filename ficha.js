@@ -389,7 +389,26 @@ gerador.addEventListener("click",function(){
     for (let i = 0; i < traco.length; i++) {
         classAtual = traco[i]
         if (traco[i].checked) {
-            let textpericia = document.createElement("p")
+            if(classAtual.classList.contains("nacao")){
+                if(classAtual == arremesso){
+                    document.getElementById("total-ar").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }if(classAtual == corpo){
+                    document.getElementById("total-cc").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }if(classAtual == arte){
+                    document.getElementById("total-ar").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }if(classAtual == antropologia){
+                    document.getElementById("total-ar").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }if(classAtual == medicina){
+                    document.getElementById("total-ar").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }if(classAtual == ritual){
+                    document.getElementById("total-ar").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }
+            }else{
+                if(classAtual == arremesso){
+                    document.getElementById("total-ar").innerText = traco[i].id + ":" + calculonacao(pontnac) + "%"
+                }
+            }
+            /*let textpericia = document.createElement("p")
             textpericia.setAttribute("class","posficha")
             if(classAtual.classList.contains("nacao")){
                 textpericia.innerHTML = traco[i].id + ":" + calculonacao(pontnac) + "%"
@@ -397,7 +416,7 @@ gerador.addEventListener("click",function(){
                 textpericia.innerHTML = traco[i].id + ":" + calculoponto() + "%"
             }
             document.body.appendChild(textpericia)
-            traco[i].parentNode.removeChild(traco[i])
+            traco[i].parentNode.removeChild(traco[i])*/
             break
         }
     }
