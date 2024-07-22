@@ -21,66 +21,114 @@
             <h3>Combate</h3>
             <p>Atributos de combate são únicos e podem ser mudados durante testes, perseguições e lutas. Sendo distribuídos para cada classe pontos que definem as estatísticas abaixo.</p>
             <ul>
-                <li><a>Vida:</a>Tendo como seu máximo de distribuição 20 pontos. Vida nada mais é o quanto de dano que o jogador poderá sofrer até vir a óbito quando chegar a 0. A vida também está atrelada a efeitos e o mental. Alguns exemplos de efeitos como sangramento, envenenamento afetam este atributo, assim como o mental que se chegando a 0 pode matar o personagem.
+                <li><a>Vida:</a>Tendo como seu máximo de distribuição 
+                    20 pontos. Vida nada mais é o quanto de dano que 
+                    o jogador poderá sofrer até vir a óbito. A vida 
+                    também está atrelada a efeitos e o mental. Alguns
+                     exemplos de efeitos como sangramento, envenenamento 
+                     afetam este atributo, assim como o mental caso 
+                     chegue a 0 pode matar o personagem.
                     </li>
-                <li><a>Defesa:</a>Tendo como seu máximo de distribuição 10 pontos. Defesa é o atributo que estabelece resistência a dano e efeitos.
-                    Este atributo será utilizado nas seguintes pericias: <i>fortitude</i>
+                <li><a>Defesa:</a>TTendo como seu máximo de 
+                    distribuição 10 pontos. Defesa é o atributo 
+                    que estabelece resistência a dano independente 
+                    da categoria de ataque (Ritual, Corpo-Corpo, 
+                    Arremesso, Armas). Este atributo está atrelado 
+                    a seguinte perícias: fortitude.
+
                     </li>
-                <li><a>Força:</a>Tendo como seu máximo de distribuição 10 pontos. Força é o atributo que será utilizado em testes para dar dano ao adversário e/ou fazer ações que exijam esforço físico. 
-                    Este atributo será utilizado nas seguintes perícias: Arremesso, corpo-corpo, armas                    
+                <li><a>Força:</a>Tendo como seu máximo de distribuição 
+                    10 pontos. Força é o atributo que será utilizado 
+                    em testes para dar dano ao adversário dentro das 
+                    categorias de ataque (Ritual, Corpo-Corpo, 
+                    Arremesso, Armas) e/ou fazer ações que exijam 
+                    esforço físico. Este atributo será utilizado 
+                    nas seguintes perícias: Arremesso, corpo-corpo, 
+                    armas.                    
                     </li>
-                <li><a>Mental:</a>Todos iniciam com 100% do mental, entretanto seu personagem tem um limite baseado nas pericias, o 100% seria um bônus. Mental é o atributo responsável 
-                    por sua sanidade e nível de exposição ao surreal/místico/
-                    divino. Quanto mais mental é perdido mais suas ações pode 
-                    se deteriorar, podendo lhe causar certos transtornos ou 
-                    até a morte. Os níveis de mental será descrito em outro momento do site.
-                    Este atributo será utilizado nas seguintes pericias:Ritual, inspiração
+                <li><a>Mental:</a>Todos os personagens tem como 
+                    seu limite máximo mental de 100%, entretanto 
+                    só é possível chegar com bônus. Seu mental 
+                    máximo é baseado no seguinte cálculo: 100% - 
+                    (Ritual - Inspiração) 
+                    Mental é o atributo responsável 
+                    por sua sanidade e nível de exposição 
+                    ao surreal/místico/ divino. Quanto mais 
+                    mental é perdido, mais suas ações podem se 
+                    deteriorar, podendo lhe causar certos 
+                    transtornos ou até a morte. Os níveis de mental 
+                    serão descritos em outro momento do site. Este 
+                    atributo será utilizado nas seguintes perícias:
+                    Ritual, inspiração.
+                    </li>
+                    <li><a>Carga:</a>Seria o quanto o 
+                        personagem aguenta carregar de itens e 
+                        sua resistência ao efeito de atordoar. 
+                        Este atributo baseia-se na soma de vida e 
+                        força dividido por 2.
                     </li>
             </ul>
             <h3>Traços</h3>
             <ul>
-                <li><a>Destreza: </a>É o quão atletico e furtivo seu personagem é em relação aos ambientes e inimigos do universo apresentado. Este atributo é baseado pela média de suas perícias.
-                    Este atributo será utilizado nas seguintes pericias: esquiva, furtividade, escalar, corrida, controle de respiração
+                <li><a>Destreza: </a>É o quão atlético e furtivo 
+                    seu personagem é em relação aos ambientes e 
+                    inimigos do universo apresentado. Este atributo 
+                    é baseado pela média de suas perícias e será 
+                    utilizado para o teste de combate em inimigos da 
+                    categoria pequeno/médio e aumentar seu nível em 
+                    alguma perícia desta categoria, sendo elas a 
+                    seguintes: esquiva, furtividade, escalar, 
+                    corrida, controle de respiração
                     </li>
-                <li><a>Conhecimento:</a>Se relaciona ao saber do universo que o seu personagem vive e ao que ele se relaciona, arte, religião, busca de recursos. Este atributo é baseado pela média de suas pericias.
-                    Este atributo será utilizado nas seguintes pericias Arte e ofícios, encontrar, navegação, Antropologia
+                <li><a>Conhecimento:</a>Se relaciona ao saber 
+                    do universo que o seu personagem vive e ao 
+                    que ele se relaciona à arte, religião, busca 
+                    de recursos. Este atributo é baseado pela 
+                    média de suas perícias e será utilizado para 
+                    testes caso o jogador queira descobrir alguma 
+                    informação de monstro ou melhorar alguma perícia 
+                    desta categoria, sendo elas as seguintes: arte e 
+                    ofícios, encontrar, navegação, antropologia.
                     </li>
-                <li><a>Carisma:</a>: A forma de relacionamento que você vai adotar aos personagens do universo conforme a situação. Este atributo é baseado pela média de suas pericias.
-                    Este atributo será utilizado nas seguintes pericias: Charme, Intimidação, Lábia
+                <li><a>Carisma:</a>:  A forma de relacionamento que 
+                    você vai adotar aos personagens do universo 
+                    conforme a situação. Este atributo é baseado 
+                    pela média de suas perícias desta categoria sendo 
+                    elas as seguintes: charme, intimidação, lábia.
                     </li>
-                <!--<li><a>Adaptação:</a>Não existe pericias para esse atributo, é uma forma de ajudar o jogador as punições de testes. Este atributo é baseado pela média de seus atributos.</li>-->
-            <!--Combate: vida, defesa e força-->
         </div>
         <div>
-            <!--Atributos: tatica, fortitude e etc -->
         </div>
     </section>
     <section class="regras">
         <h2><a>2</a>Pericias</h2>
-        <p>Perícias são testes que o jogador pode realizar 
-            para fazer certas ações durante seu turno 
-            independente da situação.</p>
+        <p>Perícias são testes que o jogador pode realizar para fazer 
+            certas 
+            ações durante seu turno independente da situação.</p>
         <p>Todas as ações são divididas entre os atributos do 
-            personagem e as perícias que são estabelecidas 
-            conforme seu nível de especialização naquilo, 
-            sendo assim cada nível lhe dará uma certa 
-            porcentagem de dificuldades para realizar algo e 
-            sendo classificado pelos seguintes testes:
-            Combate, Mental/Sanidade, Atributos, Perícias.
+            personagem e as perícias que são 
+            estabelecidas conforme os pontos de nação ou 
+            resultados no dado.
             </p>
-        <p>Você pode não ter conhecimento nenhum sobre aquilo 
-            ou ser novato, não te impedirá de fazer testes, 
-            mas ter que procurar outras formas de desvendar.
-            Nesta sessão você descobrirá o que cada perícia 
-            faz e os níveis de especialização. Os testes serão 
-            falados nas próximas sessões.
+        <p>Para você aprender ou adquirir algo será 
+            necessário estar naquele nível de 
+            especialização em sua porcentagem geral de um 
+            atributo. Por exemplo: Foi encontrado uma erva medicinal, 
+            será necessário descobrir o nível de especialização e 
+            então se é possível utilizá-la em um teste de medicina. 
+            Caso sua categoria for abaixo será necessário aprender 
+            novas coisas dentro das suas perícias para que possa 
+            chegar ao nível necessário.
             </p>
+            <p>Nesta parte da página você descobrirá o que 
+                cada perícia faz e os níveis de especialização. 
+                Os testes serão falados nas próximas sessões.</p>
             <ul>
                 <h3>Como definir seu nível de perícia:</h3>
-                <li>Nação que nasceu: certas nações já 
-                    têm um certo privilégio em certas 
-                    perícias pelo local que vivem e suas 
-                    atividades</li>
+                <li>Nação que nasceu: certas nações já têm um 
+                    certo privilégio em certas perícias pelo 
+                    local que vivem e suas atividades, estará 
+                    especificado quando esse cálculo será utilizado.</li>
                 <li>2d6 * pontos de perícia por nação 
                     (conhecimento da nação envolta daquele 
                     aspecto, sendo classificado de 1-6) </li>
@@ -140,12 +188,12 @@
                 <h3>Perícias: conhecimento</h3>
                 <li><a>Arte e ofícios: </a>Esta perícia 
                     fornece ao jogador informações sobre itens, 
-                    formas de falsificação e concerto do item. 
+                    formas de falsificação e conserto do item. 
                     Utilizado principalmente por jogadores da 
                     tribo de arte para efetuar suas artes 
                     rúnicas.</li>
                     <p>Pontos de nação: Igneo: 3| Aureo: 6| Nômade: 4</p>
-                    <li><a>Encontrar: </a>Fornece testes para 
+                    <li><a>Encontrar: </a>Fornecer testes para 
                         encontrar pistas e itens. 
                         Pontos de nação igualitários, 
                         2D6 * 6
@@ -205,7 +253,12 @@
 
             <ul>
                 <h3>Perícias: mentalidade</h3>
-                <li><a>Ritual:</a>Permite ao jogador efetuar rituais independente da área ou se prevenir de um. Isso faz perder um turno caso esteja em combate. Quanto mais usar certo ritual menos serão suas punições, mas depende do quão insano esteja seu personagem.</li>
+                <li><a>Ritual:</a>Permite ao jogador efetuar rituais 
+                    independente da área ou se prevenir de um. 
+                    Isso faz perder um turno caso esteja em combate. 
+                    Quanto mais usar certo ritual menos serão suas 
+                    punições, mas depende do quão insano esteja seu 
+                    personagem.</li>
                 <p>Pontos de nação: Igneo: 6| Aureo: 3| Nômade: 3</p>
                 <li><a>Inspiração: </a>Permite o jogador a 
                     inspirar o resto do time dando lhes 
@@ -234,15 +287,16 @@
     </section>
     <section class="regras">
         <h2><a>3</a>Dados</h2>
-        <p><a>D6 –</a> Dentro do sistema serão usados testes de 
-            movimentações, definir a porcentagem das perícias.</p>
+        <p><a>D6 –</a> Definir a porcentagem das perícias, bônus e punições.</p>
         <p><a>D100(dois d10) –</a> Será utilizado para todos os testes 
             de perícias, sendo necessário atingir a porcentagem 
             definida no teste para obter sucesso naquilo que deseja.</p>
-        <p><a>D20 –</a> Será utilizado para punições em testes</p>
-        <p><a>D10 –</a> Qual punição mental você receberá</p>
-        <p><a>Moeda –</a> Este item será utilizado para decidir se 
-            o jogador poderá forçar um teste.</p>
+        <p><a>D20 –</a> Será utilizado para punições em testes, bônus, punições e movimentação</p>
+        <p><a>D10 –</a> Qual punição mental você receberá, bônus, punições e movimentação</p>
+        <p><a>Moeda –</a> Este item será utilizado para decidir 
+            se o jogador poderá pedir informação de algum status 
+            do inimigo e logo após jogar um teste de conhecimento ou nas ações de punição e bônus. 
+            Isso só ocorrerá caso tire cara</p>
         <!--Dados-->
     </section>
     <section class="regras">
@@ -250,68 +304,128 @@
         <p>Em locais sem perigos iminentes não há 
             necessidade de testes, mesmo sendo uma passagem desconhecida.</p>
         <p><a> Perseguições:</a> Para esse aspecto seguirá na frente 
-            aqueles que tiverem mais destreza (a possibilidade 
-            de outra pessoa estar na área de saída antes de 
-            outros com mais destreza, dando os primeiros turnos a 
-            ele). Tem a possibilidade de esquivar, escalar, 
-            correr nessas situações. Será feito um teste de destreza 
-            com um d10 para determinar quantos passos o jogador 
-            dará, sendo necessário sempre um teste de controle 
-            de respiração para ver se terá punição. O local para 
-            despistar(nem sempre será assim) também terá um numero 
+            aqueles que tiverem mais destreza (a possibilidade de 
+            outra pessoa estar na área de saída antes de outros com 
+            mais destreza, dando os primeiros turnos a ele). 
+            Tem a possibilidade de esquivar, escalar, correr nessas 
+            situações. Será feito um teste de destreza com um d10 ou 
+            um d20 para determinar quantos passos o jogador dará, 
+            sendo necessário sempre um teste de controle de 
+            respiração para ver se terá punição. O local para 
+            despistar(nem sempre será assim) também terá um número 
             determinado de passos.</p>
         <!--Movimentação-->
     </section>
     <section class="regras">
-        <h2><a>5</a>Efeitos</h2>
-        <p><a>Sangramento:</a>Cortes graves podem causar 
-            esse efeito e irá se agravando com o 
-            passar do tempo sempre iniciando com o 
-            dano de 1 e multiplicando por 2.</p>
-        <p><a>Envenenamento: </a>Consumir algo sem conhecer 
-            ou colocar veneno independente do meio 
-            lhe causará dois tipos de efeitos, náusea 
-            e um dano fixo dependendo da força do veneno 
-            sendo o nível mais forte 6 de dano.</p>
-        <p><a>Náusea:</a>Os acertos em testes se tornam maior 
-            e sua efetividade diminui</p>
+        <h2><a>5</a>Efeitos/causa</h2>
+        <p>São punições causadas por ataques, rituais, 
+            condições do ambiente, entre outras coisas. 
+            Esses efeitos podem ser remediados por poções, 
+            ervas conforme sua perícia medicina  e curadas 
+            pelo mesmo. Se não houver nenhuma prevenção e 
+            ocorra de obter uma punição será jogado um teste 
+            conforme a punição, sendo normalmente a fortitude 
+            que irá definir.</p>
+        <p><a>Sangramento:</a>cortes graves podem causar esse efeito e 
+            irá se agravando com o passar do tempo sempre iniciando 
+            com o dano de 1 e multiplicando por 2, dura 5 rounds. 
+            Se o jogador/inimigo/monstro ter regeneração de vida 
+            maior que o sangramento, ele se cura mas reduz a cura 
+            dependendo quantidade de sangramento, caso o sangramento 
+            seja maior anula a cura e da o dano a mais.</p>
+        <p><a>Envenenamento: </a>consumir algo sem conhecer ou colocar 
+            veneno independente do meio lhe causará dois tipos de 
+            efeitos, náusea e um dano fixo dependendo da força do veneno 
+            sendo o nível mais forte 1 de dano, você pode stackar até 3 
+            e serão 3 rounds (isso não acumula).</p>
+        <p><a>Náusea:</a>piora as porcentagens das perícias. 
+            Pode ser causado por ingerir alguma comida 
+            ou ataque mental.</p>
+        <p><a>Queimadura: </a>condições de ambientes/ataques de 
+                fogo(pegou uma tocha e bateu, uma bola de fogo), 
+                se falhar no teste de fortitude jogador/inimigo 
+                toma 2 de dano por 2 rounds (esse efeito não acumula) </p>
+        <p><a>Atordoar: </a> pode ser gerado por rituais e certos 
+            objetos definidos pelo mestre quando lançados 
+            ao jogador/inimigo que sejam maiores que sua carga base.</p>
+        <p><a>Penetração de armadura: </a> Se bem sucedido em 
+                todas as etapas de combate e seu inimigo tem defesa maior que 
+                força(mesmo com as aplicações de bônus), ele joga uma 
+                moeda se cair cara da o dano por completo se cair coroa 
+                da a metade da força base.</p>
+        <p><a>Enraizar: </a> efeito de enraizamento pode ser 
+            causado por ambiente (imagine-se em uma floresta 
+            e ao estar correndo   você falha no teste e se 
+            prende em uma trepadeira) ou rituais ou alguns 
+            efeitos mentais podem imobilizar o personagem os 
+            impedindo de se mexer até que saia do efeito. 
+            A retirada desse efeito será decidida por um teste 
+            conforme o que te prendeu, como no exemplo da trepadeira 
+            seria necessário teste de destreza para se desenrolar
+             ou um de armas caso tenha algo cortante.</p>
+        <!--<p><a>Congelamento: </a></p>-->
         <p><a>Escuridão:</a>Não tem volta</p>
         <p><a>Fobia:</a>Parecido com a paranoia, 
             o personagem começa a imaginar viver 
             seu pior medo, podendo matá-lo. Causado pelo 
             contato com um de seus medos ou forçado por algum 
             inimigo que brinque com a mente.</p>
-        <p><a>Insanidade:</a>Caso o mental esteja zerado 
-            talvez seja impossível retornar quem é. 
-            Podendo lhe causar a morte.</p>
-        <p><a>Raiva:</a>Dá efeito de descontrole, aumentando 
-            sua força, entretanto vai atacar qualquer um. 
-            Sendo obtido por traições, animais, recordações de 
-            lembranças desagradáveis</p>
         <p><a>Possessão:</a>Uma entidade se apossa de seu corpo 
             por meio de ritual ou itens corrompidos, sendo 
             necessário fazer um trato para saber se conseguirá 
             conseguir conquistar o poder da entidade ou perder o 
             controle total de seu corpo</p>
-        <p><a>Paranoia:</a>Perca de mental pode começar a 
-            te causar delírios, imaginando coisas que não 
-            existem e duvidando de sua equipe. Podendo te 
-            fazer atacar ou se separar do grupo</p>
         <!--Efeitos(causa e condição)-->
     </section>
+
     <section class="regras">
-        <h2><a>6</a>Teste mental/sanidade</h2>
+        <h2><a>6</a>Bônus/punição</h2>
+        <p>Para cada acerto de perícia ou hit kill ou uma boa ideia de 
+            RP na qual o mestre goste, você ganha pontos de bônus 
+            ao chegar a 5 pontos (sujeito a mudança) você pode trocar 
+            por um dos tipos abaixo, com exceção do monstro grande. 
+            Errando perícias, ataques, movimentos, carisma, o jogador 
+            também acumula pontos de punição, máximo de 5 
+            (sujeito a mudança),  jogue um d6 para ver qual punição 
+            receberá sendo 1-2 movimentação, 3-4 ataque, 5-6 perícia .</p>
+
+            <h3>Bônus/punição movimentação</h3>
+            <p>Como bônus: jogue uma moeda se cair cara receba um d6 
+                como bônus de passo, coroa d10.
+                Como punição: o mestre jogará uma moeda se 
+                cair cara receba uma punição de um d10, coroa 
+                uma punição de d20.
+                </p>
+            <h3>Bônus/punição de ataque</h3>
+            <p>Como bônus: jogue uma moeda se cair cara receba um d6 
+                como bônus na força base, coroa d10 tem direito a penetração de armadura.
+                Como punição: o mestre jogará um d6 que diminuirá 
+                sua força base.
+                </p>
+            <h3>Bônus/punição de perícia</h3>
+            <p>Como bônus: Escolha um dado que ajude a 
+                chegar na sua porcentagem, seja diminuindo o 
+                valor ou somando.
+                Como punição: O mestre escolhe um dado que 
+                piora sua porcentagem, seja diminuindo o valor 
+                ou somando.
+                </p>
+    </section>
+
+    <section class="regras">
+        <h2><a>7</a>Teste mental/sanidade</h2>
         <h3>Perca de sanidade:</h3>
+
         <p>Situações nunca vista, fobias, 
             encontro com cadáveres em uma situação anormal 
             para a realidade, a escuridão etc. 
             podem te diminuir seu mental e causar um efeito 
             dentro das 4 camadas: raiva, escuridão, paranoia e 
             insanidade.</p>
-            <p>Para cada perca é jogado um teste de Fortitude, 
-                caso falhe jogará 1d10 que diminuirá seu mental.
-                Quanto mais próximo do 0% mais o efeito persiste 
-                ou se torna permanente.
+            <p>Para cada teste mental proposto pelo mestre, 
+                você jogará um d100 baseado no seu mental atual, 
+                se falhar jogará um d10 para decidir sua punição 
+                dentro dos 4 aspectos mentais.
                 </p>
         <ul>
             <h3>Raiva</h3>
@@ -348,41 +462,34 @@
             <li>Item de recordação de um familiar – 5%</li>
             <li>Cuidado com um parceiro – 10%</li>
             <li>Poções – 5%</li>
+            <li>Teste de inspiração</li>
         </ul>
             
         <!--Teste mental-->
     </section>
     <section class="regras">
-        <h2><a>7</a>Teste de combate</h2>
+        <h2><a>8</a>Teste de combate</h2>
         <!--Teste de combate-->
-        <p>Combate, ao escolher o estilo de luta
-            (arremesso, corpo a corpo, armas
-            (podendo ser variantes de arremesso) )
-            que irá utilizar, faça o teste de perícia, 
-            caso acerte não haverá punições PELA PERÍCIA 
-            e será necessário o teste de força para ver se 
-            será bem sucedido, caso contrário pode tomar punição 
-            PELA PERÍCIA E PELA FORÇA, ocasionando em duas punições
+        <p>Combates serão definidos de 2 formas
+            Monstros pequenos/médios e humanos - Terão os 
+            status igualmente definidos aos dos players, 
+            assim o combate será feito com base no estilo 
+            de combate escolhido sendo 4 os disponíveis
+            Armas, Corpo-Corpo, Ritual e Arremesso. 
+            Sendo que certas armas serão necessárias para 
+            um teste dentro de Corpo-Corpo ou Arremesso.
         </p>
-    </section>
-    <section class="regras">
-        <h2><a>8</a>Teste de pericias</h2>
-        <p>Para qualquer teste referente a uma PERÍCIA, 
-            será rolado dois d10, sendo o primeiro equivale a 
-            dezena e o outro a unidade. Sendo necessário tirar 
-            igual ou menor a porcentagem que o personagem tem 
-            dentro do teste.</p>
-            <p>Existe o sistema de punições onde será 
-                necessário jogar um d20 para saber o quão 
-                punido o jogador será na porcentagem. Os casos 
-                de punições podem ocorrer por algum efeito ou 
-                problema, seja um ambiente que pode te fazer 
-                tropeçar, uma arma que está prestes a se 
-                quebrar ou um delírio que te impossibilita de 
-                efetuar perfeitamente aquela ação.</p>
-                <p>Teste normal – 2d10(1 d10 = Dezena | 1 d10 = Unidade)</p>
-                <p>Teste normal 2d10 – d20 (com punição)</p>
-        <!--Teste de Pericias-->
+        <p>Acerte a perícia, dê seu dano base - defesa 
+            inimiga, caso a defesa do inimigo seja maior 
+            que seu dano, faça um teste de destreza se 
+            acertado cause o efeito de penetração.
+            Se falhar perde um turno.
+            </p>
+            <p>Monstros grandes - Pelos status serem 
+                maiores o sistema acima funciona mas 
+                com bônus de um d10 e o sistema de 
+                penetração de armadura sempre será 
+                ativo não sendo necessário o teste de destreza</p>
     </section>
     <section class="regras">
         <h2><a>9</a>Eventos do mestre</h2>
@@ -391,6 +498,15 @@
             jogadores que gostem de explorar os ambientes 
             como recompensa, algumas descobertas ou que 
             passaram por perto</p>
+        <p>Alguns eventos do mestre podem ser 
+            forçados com o jogar de uma moeda</p>
+
+        <p><a>Teste de resistência:</a>carregar um número grande de 
+            itens durante uma parte da lore ou precisar levantar 
+            um objeto que está obstruindo a passagem com um peso 
+            que será definido o jogador que decidir aceitar o evento 
+            ou for posto sem condição de negar somará à sua força com 
+            a carga e assim descobrir se pode ou não carregar. </p>
         <p><a>Poções misteriosas:</a> prateleiras com poções 
             com rótulos desconhecidos que podem te dar um algum 
             efeito</p>
@@ -451,15 +567,10 @@
             <h2>Darc</h2>
             <img src="img/Darc - Personagem da mary - Novo design.png" alt="">
             <h3>Arte rúnica:</h3>
-            <p>Pode fazer qualquer coisa imaterial, 
-                contanto que tenha combustível em sua 
-                lanterna e material. Será necessário um teste 
-                de arte e ofício + conhecimento</p>
-            <p>Pode fazer qualquer coisa imaterial, 
-                contanto que tenha combustível em sua 
-                lanterna e material. Será necessário um 
-                teste de arte e ofício + conhecimento</p>
-            <h3>Arte rúnica: mudança</h3>
+            <p>arte e ofício + ritual, lanterna não tem mais o 
+                efeito de melhorar sua sanidade, entretanto 
+                fazer essa arte não abaixa sua sanidade</p>
+            <!--<h3>Arte rúnica: mudança</h3>
             <p>Não lhe permitirá mudar o ambiente como bem 
                 desejar. A partir de agora por meio de quadros,
                  desenhos, lhe permitirá viver o que aconteceu 
@@ -467,7 +578,7 @@
                  Contudo tem o perigo do usuário ficar preso 
                  na arte 
                 Testes de Antropologia + ritual
-                </p>
+                </p>-->
         </div>
 
         <div>
@@ -475,11 +586,11 @@
             <img src="img/Thomas Sigurd - personagem do manoel possuido camiseta vermelha.png" alt="">
             <h3>Transmutação:</h3>
             <p>Não será mais permitido a tentativa de uma 
-                transmutação que falho na mesma batalha, caso 
-                ocorra pode haver penalidade, sendo assim o demônio 
+                transmutação que falhou na mesma batalha. Sendo assim 
+                o demônio 
                 controlará seu corpo por uma rodada. Para fazer a 
-                transmutação será realizado um teste de mental e um 
-                de conhecimento</p>
+                transmutação Será necessario teste de conhecimento + 
+                ritual para utilização deste ataque</p>
         </div>
 
         <div>
@@ -498,7 +609,7 @@
                 teste de ritual
                 </p>
             <h3>Defesa absoluta: Manipulação de sangue</h3>
-            <p>Esse ritual permite o ganho de 4 de defesa por 
+            <p>Esse ritual permite o ganho de 3 de defesa por 
                 2 de vida (seja vida ou estoque de sangue). 
                 Tem a permissão de dar o mesmo de defesa para um 
                 aliado se bem-sucedido em um teste de ritual
@@ -509,7 +620,7 @@
             <h2>Ryan</h2>
             <img src="img/Ryan.png" alt="">
             <h3>Fortificação: Manipulação de sangue</h3>
-            <p>Permite ao usuário o ganho de 4 de força por 
+            <p>Permite ao usuário o ganho de 3 de força por 
                 2 de vida (seja vida ou estoque de sangue).
                 </p>
             <h3>Imbuir: Manipulação de sangue</h3>
@@ -518,7 +629,6 @@
                 vida (seja vida ou estoque de sangue).
                 </p>
         </div>
-        <!--Ajustes de classe-->
     </section>
     <button id="go">Consiga o passaporte</button>
 
